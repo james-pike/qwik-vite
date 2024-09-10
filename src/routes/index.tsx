@@ -17,11 +17,14 @@ const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBra
 const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
+import Carousel from "~/components/widgets/Carousel";
 
 export default component$(() => {
   return (
     <>
+     <Carousel />
       <Hero />
+     
       <Features
         highlight="Features"
         title="What you get with Qwind"
