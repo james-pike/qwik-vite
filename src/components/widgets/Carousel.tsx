@@ -6,7 +6,7 @@ export default component$(() => {
     <div class="mx-auto max-w-screen-2xl">
       <div id="slide-carousel" class="relative w-full" data-carousel="slide">
         {/* <!-- Carousel wrapper --> */}
-        <div class="relative h-[256px] w-full overflow-hidden">
+        <div class="relative h-[256px] md:h-[512px] w-full overflow-hidden">
           {/* <!-- Item 1 --> */}
           <div class="hidden duration-1000 ease-in-out" data-carousel-item>
             <div class="absolute left-1/2 top-1/2 block h-full w-full -translate-x-1/2 -translate-y-1/2 bg-[url('https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-image.jpg')] bg-cover bg-center bg-no-repeat">
