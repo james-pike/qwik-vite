@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import Carousel from "./Carousel";
 
 export default component$(() => {
   return (
@@ -30,7 +29,7 @@ export default component$(() => {
     </div>
   </div>
   <div class="-mt-20 px-4">
-    <div class="mx-auto  max-w-7xl grid-cols-2 gap-x-4 gap-y-8 rounded-lg border border-gray-200 bg-white py-0 shadow-sm dark:border-gray-700 dark:bg-gray-800 sm:grid-cols-3 md:grid-cols-4 md:p-8 lg:grid-cols-8">
+    <div class="mx-auto grid max-w-7xl grid-cols-2 gap-x-4 gap-y-8 rounded-lg border border-gray-200 bg-white py-8 shadow-sm dark:border-gray-700 dark:bg-gray-800 sm:grid-cols-3 md:grid-cols-4 md:p-8 lg:grid-cols-8">
       {/* <div class="text-center">
         <a href="#" class="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-lg border border-gray-200 bg-white hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-700 dark:hover:bg-gray-600">
           <svg class="h-5 w-5 text-gray-900 dark:text-white lg:h-8 lg:w-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -101,7 +100,6 @@ export default component$(() => {
         </a>
         <a href="#" class="mb-2 text-lg font-semibold text-gray-900 hover:underline dark:text-white">Grocery</a>
       </div> */}
-      <Carousel/>
     </div>
   </div>
 </section>
