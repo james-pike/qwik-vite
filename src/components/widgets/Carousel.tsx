@@ -1,10 +1,6 @@
 import { component$} from '@builder.io/qwik';
 
 export default component$(() => {
-
-
-
-
   return (
     <section class="bg-white antialiased">
     <div class="mx-auto max-w-screen-2xl">
