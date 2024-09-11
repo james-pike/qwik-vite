@@ -17,13 +17,20 @@ const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBra
 const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
+import Blue from "~/components/widgets/Blue";
 import Carousel from "~/components/widgets/Carousel";
 
 export default component$(() => {
   return (
     <>
-     <Carousel />
-      <Hero />
+    
+ {/* <Carousel/> */}
+    <Blue />
+    <Hero/>
+    
+ 
+     
+      
      
       <Features
         highlight="Features"
