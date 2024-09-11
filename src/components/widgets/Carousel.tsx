@@ -23,7 +23,7 @@ export default component$(() => {
                   </svg>
                 </a>
                 <h2 class="mb-3 text-3xl font-extrabold leading-none text-white lg:text-5xl">Save today on your new iMac computer.</h2>
-                <p class="mb-5 text-gray-200">Reserve your new Apple iMac 27” today and enjoy exclusive savings. Pre-order now to secure your discount.</p>
+                <p class="mb-5 text-gray-200">Reservee your new Apple iMac 27” today and enjoy exclusive savings. Pre-order now to secure your discount.</p>
                 <a href="#" class="inline-flex rounded-lg bg-primary-700 px-5 py-3 text-base font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300">Pre-order now</a>
               </div>
               <div class="absolute inset-0 bg-black bg-opacity-50"></div>
