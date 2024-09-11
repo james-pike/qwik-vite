@@ -25,8 +25,9 @@ export default component$(() => {
     <>
     
     <Carousel/>
-    <Hero/>
     <Blue />
+    <Hero/>
+    
    
    
     
