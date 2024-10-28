@@ -2,6 +2,7 @@ import { component$, useStore } from "@builder.io/qwik";
 import { useContent } from "@builder.io/qwik-city";
 
 import Logo from "~/components/common/Logo";
+import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
 
@@ -35,7 +36,7 @@ export default component$(() => {
             <Logo />
           </a>
           <div class="flex items-center md:hidden">
-            {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
+            <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             <ToggleMenu />
           </div>
         </div>
