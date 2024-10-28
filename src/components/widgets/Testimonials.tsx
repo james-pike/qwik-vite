@@ -1,43 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 
 
-import IconStar from "~/components/icons/IconStar";
-const sideImg =
-  "https://images.unsplash.com/photo-1583195648430-18b2681307e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80";
 
 export default component$(() => {
-  const stepsData = {
-    title: "Sed ac magna sit amet risus tristique interdum. hac.",
-    items: [
-      {
-        title: "Step 1",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.",
-        icon: IconStar,
-      },
-      {
-        title: "Step 2",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
-        icon: IconStar,
-      },
-      {
-        title: "Step 3",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
-        icon: IconStar,
-      },
-      {
-        title: "Ready!",
-        icon: IconStar,
-      },
-    ],
-    image: {
-      src: sideImg,
-      alt: "Steps image",
-    },
-  };
-  const { title, items, image } = stepsData;
+
 
   return (
     <section class="bg-white dark:bg-gray-900">
