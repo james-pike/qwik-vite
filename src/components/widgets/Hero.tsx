@@ -1,10 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
-import Logo2 from "~/assets/images/profile.jpg?width=64&height=64&png";
-
-const coverImage =
-  "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
+import Logo2 from "~/assets/images/profile.jpg";
 
 export default component$(() => {
   return (
