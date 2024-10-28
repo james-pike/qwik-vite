@@ -2,17 +2,19 @@
 
 ## Services
 
-- [Services](#)
-- [Porfolio](#)
-- [About us](#)
-- [Termss](/terms)
-- [Privacy](/privacy)
+- [Divorce](#)
+- [Custody](#)
+- [Mediation](#)
+- [Support](#)
+- [Seperation](#)
+- [Prenups](#)
+- [Consultation](#)
 
-## [About](/blog)
+## [About](/)
 
-## [Cases](/blog)
+## [Cases](/)
 
-## [Testimonials](/blog)
+## [Testimonials](/)
 
 
 

@@ -17,6 +17,8 @@ const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBra
 const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
+import Testimonials from "~/components/widgets/Testimonials";
+import Contact from "~/components/widgets/Contact";
 
 
 export default component$(() => {
@@ -76,6 +78,8 @@ export default component$(() => {
         ]}
       />
       <Steps />
+      <Testimonials />
+      
       <FAQs
         title="Frequently Asked Questions"
         subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
@@ -115,6 +119,7 @@ export default component$(() => {
       />
       <Stats />
       <CallToAction />
+      <Contact/>
     </>
   );
 });
