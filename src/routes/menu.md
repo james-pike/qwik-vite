@@ -1,11 +1,5 @@
 # Menu
 
-## [About](/blog)
-
-## [Cases](/blog)
-
-## [Testimonials](/blog)
-
 ## Services
 
 - [Services](#)
@@ -13,5 +7,13 @@
 - [About us](#)
 - [Termss](/terms)
 - [Privacy](/privacy)
+
+## [About](/blog)
+
+## [Cases](/blog)
+
+## [Testimonials](/blog)
+
+
 
 
