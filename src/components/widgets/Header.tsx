@@ -78,9 +78,7 @@ export default component$(() => {
         </nav>
         <div class="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0">
           <div class="items-center flex justify-between w-full md:w-auto">
-            {/* <div class="flex">
-              <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
-            </div> */}
+          
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
                 href="https://github.com/onwidget/qwind"
