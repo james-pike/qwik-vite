@@ -13,7 +13,7 @@
 
 ## [Cases](/)
 
-## [Testimonials](/)
+## [Testimonials](/testimonials)
 
 
 
