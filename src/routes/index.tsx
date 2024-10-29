@@ -80,7 +80,7 @@ export default component$(() => {
       {/* <Steps /> */}
       <Testimonials />
       
-      <FAQs
+      {/* <FAQs
         title="Frequently Asked Questions"
         subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
         highlight="FAQs"
@@ -116,7 +116,7 @@ export default component$(() => {
               "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
           },
         ]}
-      />
+      /> */}
       <Stats />
       <CallToAction />
       {/* <Contact/> */}
