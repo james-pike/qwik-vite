@@ -19,7 +19,7 @@ export default component$(() => {
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
                 <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                Lighting Fast Page Speed, Image optimization, Sitemap generation, SEO & Accessibilty Complinance, Dark mode and more.
+                Lighting Fast Page Speed, Image Optimization, Sitemap Generation, SEO & Accessibilty, Dark Mode and more.
                 </span>{" "}
                
                 {/* <span class="inline md:hidden">...</span>
