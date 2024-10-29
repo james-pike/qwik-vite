@@ -40,7 +40,7 @@ export default component$(() => {
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-gray-50 dark:bg-transparent">416 358-6451</button>
+                  <button class="btn w-full bg-gray-50 dark:bg-transparent">888 888-8888</button>
                 </div>
               </div>
             </div>
