@@ -3,9 +3,9 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
-import Steps from "~/components/widgets/Steps";
+
 import FAQs from "~/components/widgets/FAQs";
-import Stats from "~/components/widgets/Stats";
+
 import CallToAction from "~/components/widgets/CallToAction";
 
 import { qwikSerialized } from "~/utils/qwikSerialized";
@@ -18,7 +18,7 @@ const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
 import Testimonials from "~/components/widgets/Testimonials";
-import Contact from "~/components/widgets/Contact";
+
 
 
 export default component$(() => {
@@ -80,7 +80,7 @@ export default component$(() => {
       {/* <Steps /> */}
       <Testimonials />
       
-      {/* <FAQs
+      <FAQs
         title="Frequently Asked Questions"
         subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
         highlight="FAQs"
@@ -116,8 +116,8 @@ export default component$(() => {
               "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
           },
         ]}
-      /> */}
-      <Stats />
+      />
+      {/* <Stats /> */}
       <CallToAction />
       {/* <Contact/> */}
     </>
