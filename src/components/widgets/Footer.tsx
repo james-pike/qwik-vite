@@ -15,9 +15,7 @@ export default component$(() => {
         { title: "Security", href: "#" },
         { title: "Team", href: "#" },
         { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
-        { title: "Pricing", href: "#" },
-        { title: "Resources", href: "#" },
+ 
       ],
     },
     {
@@ -27,7 +25,7 @@ export default component$(() => {
         { title: "Partners", href: "#" },
         { title: "Atom", href: "#" },
         { title: "Electron", href: "#" },
-        { title: "Qwind Desktop", href: "#" },
+    
       ],
     },
     {
@@ -37,7 +35,7 @@ export default component$(() => {
         { title: "Community Forum", href: "#" },
         { title: "Professional Services", href: "#" },
         { title: "Skills", href: "#" },
-        { title: "Status", href: "#" },
+
       ],
     },
     {
@@ -47,9 +45,7 @@ export default component$(() => {
         { title: "Blog", href: "#" },
         { title: "Careers", href: "#" },
         { title: "Press", href: "#" },
-        { title: "Inclusion", href: "#" },
-        { title: "Social Impact", href: "#" },
-        { title: "Shop", href: "#" },
+
       ],
     },
   ];

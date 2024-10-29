@@ -77,7 +77,7 @@ export default component$(() => {
           },
         ]}
       />
-      <Steps />
+      {/* <Steps /> */}
       <Testimonials />
       
       <FAQs
@@ -119,7 +119,7 @@ export default component$(() => {
       />
       <Stats />
       <CallToAction />
-      <Contact/>
+      {/* <Contact/> */}
     </>
   );
 });
